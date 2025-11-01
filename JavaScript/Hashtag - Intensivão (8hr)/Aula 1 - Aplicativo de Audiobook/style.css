@@ -1,0 +1,75 @@
+* {
+    margin: 0;    
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    background-image: linear-gradient(
+        to bottom,
+        hsl(141deg 75% 15%),
+        hsl(141deg 75% 5%),
+    );
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+}
+.container-aplicativo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+}
+.music-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#informações-faixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0 1rem 0;
+}
+#capitulo {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+#play-pause
+#anterior
+#proximo {
+    cursor: pointer;
+}
+#anterior,
+#proximo {
+    width: 40px;
+}
+#play-pause {
+    width: 60px;
+}
+.pause {
+    display: none;
+}
+.tocando .play{
+    display: none;
+}
+.tocando .pause{
+    display:block;
+}
+#container-botoes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
